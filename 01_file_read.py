@@ -4,9 +4,7 @@
 # 3. Print the list
 
 # When you want to define a function in python, you should use the def keyword. You can see that this function (not
-# named properly) does the required job i.e. the steps mentioned above so it should be correctly named like "process_file"
-# or something that makes sense rather than invoke_main() which is an absolute lame name. But since its our first program
-# I deliberately named it for you to pay attention to it.
+# named properly)
 def invoke_main():
     """
     using the system call open(), we open the file and read all the contents into a list and print it on the console
@@ -16,6 +14,7 @@ def invoke_main():
     # The above lines are called docstring comments these are used to generate documentation for your program. They can
     # have multiple params (depending on how your function is defined) or none as in this case. The :return: signifies
     # this program has nothing to return to its caller. Usually writing docstrings is a good practise. You should do it.
+    # Please note the tripple quotes - its a multi line comment so that you can write the whole comment as a paragraph.
 
     lines = open("quotes.txt", "r").readlines()
     # In the above line we did several things. We made a call to open() function which is a part of the python's core
@@ -48,6 +47,4 @@ if __name__ == '__main__':
 # running the program and see that it prints the file as expected.
 
 
-
-# The main draw back of this program is that it loads all the content in memory. If the file itself is huge, this will
-# be a memory hog. So how do we read it without consuming too much memory? That is shown in 01_perf_file_read.py
+# Please go to 01_file_read_issues.md for next lesson.
