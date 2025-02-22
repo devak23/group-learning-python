@@ -47,4 +47,4 @@ if __name__ == '__main__':
 # running the program and see that it prints the file as expected.
 
 
-# Please go to 01_file_read_issues.md for next lesson.
+# Please go to 01_file_read_issues.md for discussion of problems with this code.
