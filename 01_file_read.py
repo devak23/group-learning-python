@@ -26,7 +26,7 @@ def invoke_main():
     # data from the file - line by line into a "list". Each entry in the list is one line from the file. We then
     # assign this list to a local variable called "lines" which is then ready to be printed. Notice there is no need to
     # specify anything before "lines variable" to declare it as a "list type" of object. In Java and many other languages
-    # the complier requires us to define the "type" of the handle. Lucky for us, python is very developer friendly.
+    # the compiler requires us to define the "type" of the handle. Lucky for us, python is very developer friendly.
 
 
     for line in lines:
